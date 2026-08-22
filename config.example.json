@@ -1,0 +1,27 @@
+{
+  "base": "http://60.8.3.210:8090/jwglxt",
+  "indexPath": "/xsxk/zzxkyzb_cxZzxkYzbIndex.html",
+  "gnmkdm": "N253512",
+  "targets": {
+    "kch": "",
+    "jxb": "",
+    "kw": "",
+    "njdm_id": "2025"
+  },
+  "intervalSec": 2.5,
+  "kklxdm": "10",
+  "dryRun": true,
+  "headless": false,
+  "loginTimeoutMin": 5,
+  "login": {
+    "username": "",
+    "password": ""
+  },
+  "logFile": "grab.log",
+  "stateFile": "state.json",
+  "templatesFile": "templates.json",
+  "notify": {
+    "webhook": "",
+    "beep": true
+  }
+}
