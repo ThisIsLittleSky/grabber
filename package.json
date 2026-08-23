@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "description": "正方教务系统自动抢课独立工具（手动登录 + 接口抢课）",
+  "license": "MIT",
   "main": "grab.js",
   "scripts": {
     "start": "node grab.js",

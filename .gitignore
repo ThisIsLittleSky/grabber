@@ -10,3 +10,23 @@ templates.json
 # 系统文件
 .DS_Store
 Thumbs.db
+
+# 构建产物（字节码 release/app、安装包）
+release/
+out-nsis*/
+out/
+dist/
+
+# 部署临时脚本（含服务器凭据，勿提交）
+.deploy/
+server/data/
+server/.token
+server/auth.db
+server/.viewpass
+server/*.log
+
+# 商业化后端与客户端（仅 dev，不入 main）
+native/
+scripts/
+electron/
+server/public/
