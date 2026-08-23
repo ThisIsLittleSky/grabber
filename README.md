@@ -122,6 +122,17 @@ npm test                         # 运行单元测试（node lib/self_test.js）
   <img src="docs/paycode.jpg" alt="赞赏码" width="220">
 </p>
 
+## Roadmap
+
+规划中的功能方向，欢迎认领开发（对应 GitHub Issues 见文末链接）：
+
+- **友好的 UI 界面** — Web 或桌面客户端（形态待定，欢迎贡献者共创）
+- **多账号并发** — 多账号同时并行抢课，各自独立轮询 / 选课 / 冲突处理
+- **定时轮询** — ① 定时到点自动启动 ② 开抢窗口内自动提频，两者都支持
+- **多学校适配** — 内置几所学校的方正系统模板，选学校即可用
+
+> 每个方向对应一个 GitHub Issue，标有 `good first issue` / `help wanted`，可认领开发并提交 PR。
+
 ## 二次开发
 
 本项目**允许二次开发**（MIT License）。你可以：
